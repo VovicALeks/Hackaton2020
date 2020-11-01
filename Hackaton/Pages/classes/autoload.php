@@ -9,10 +9,4 @@ include_once("Task.php");
 include_once("Task_Try.php");
 include_once("Student_Task.php");
 include_once("Discipline.php");
-include_once("Test_Data/Test_Student.php");
-include_once("Test_Data/Test_Student_Task.php");
-include_once("Test_Data/Test_Task.php");
-include_once("Test_Data/Test_Teacher.php");
-include_once("Test_Data/Test_Discipline.php");
-include_once("Test_Data/Test_DB.php");
 ?>
