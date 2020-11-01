@@ -1,0 +1,4 @@
+$a = array(1,2,3,4,5);
+*1*
+if (count(array_diff($a, array(0,2,6,12,20))) == 0)
+	echo true;
