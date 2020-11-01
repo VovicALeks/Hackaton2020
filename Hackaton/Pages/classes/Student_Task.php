@@ -42,6 +42,7 @@ class Student_Task
 		$con = DB_Connection::Get_Connection();
 		if ($res = $con->query("SELECT * FROM h_Tries WHERE St_Task_ID = ".$this->ID))
 		{
+			unset($this->Tries_Mas);
 			for($i = 0; $i < $res->num_rows; $i++) 
 			{
                 $res->data_seek($i);
